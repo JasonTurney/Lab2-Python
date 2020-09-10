@@ -20,7 +20,7 @@ def getLetterGrade(grade):
     grade = "C+"
   elif grade >= 70.0:
     grade = "C"
-  elif grade >= 70.0:
+  elif grade >= 60.0:
     grade = "D"
   else:
     grade = "F"

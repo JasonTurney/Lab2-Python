@@ -3,8 +3,9 @@
 # Collaborator:
 # Collaborator:
 # Section: 1
-# Breakout: 12
+# Breakout: 
 
+grade = float(input("Enter your CMPSC 131 grade: "))
 def getLetterGrade(grade):
   if grade >= 93.0:
     print("Your letter grade for CMPSC 131 is A.") 
@@ -24,3 +25,4 @@ def getLetterGrade(grade):
     print("Your letter grade for CMPSC 131 is D.")
   if grade < 60:
     print("Your letter grade for CMPSC 131 is F.")
+getLetterGrade(grade)
